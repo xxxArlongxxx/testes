@@ -1,0 +1,85 @@
+Como chamar um comando JS:
+<script src="nomeDoArquivo"></script>
+
+Como criar um alerta com JS:
+alert ("texto")
+
+JS é uma linguagem case sensitive
+
+Para fazer comentários de 1 linha no JS se usa: //texto
+
+Para fazer comentários grandes no JS se usa: /* texto */
+
+para fazer quebra de linha no JS usa: \n
+
+O uso de ";" é opcional no JS.
+
+NaN = Not a number
+
+Tipos de variáveis:
+
+//Boolean
+//Null
+//Undefined
+//Number
+//String: 
+
+Tipos de operadores aritméticos:
+
+//  +  Adição
+//  -  Subtração
+//  *  Multiplicação
+//  /  Divisão
+//  %  Módulo
+//  ++ Incremento
+//  -- Decremento
+
+
+Tipos de operadores comparativos:
+
+//   ==  Igual a
+//   === Valor igual e igual (compara valor e tipo de VAR)
+//   !=  Não é igual
+//   !== Não é igual ou não igual (compara valor e tipo de VAR)
+//   >   Maior que
+//   <   Menor que
+//   >=  Maior que ou igual a
+//   <=  Menor que ou igual a
+//   &&  Compara valores Booleanos
+//   ||  Um ou outro
+//   !   Negativo ( inverte valores Booleanos)
+
+
+Quando for necessário transformar uma string em número pode-se utilizar:
+
+// parseInt(string) para transformar em número inteiro
+// parseFloat(string) para transformar em número real
+
+Operador ternário é uma opção para usar no lugar do "if" ou "else", ele é 
+utilizado com o símbolo "?"
+
+ex: var idade = 16;
+idade >= 18 ? console.log("pode"): console.log("não pode");
+(condição? valor se for verdadeiro : valor se for falso)
+
+
+A utilização de "switch" é para comparar valores de uma variável.
+ex: var = conceito;
+    switch (conceito) {
+      case "bom": console.log("você é bom");
+      break;
+       case "ótimo": console.log("você é bom");
+      break;
+       case "regular": console.log("você é bom");
+      break;
+    }
+
+Estruturas de repetição (for e while) servem para realizar loops.
+ex: var numero = 5;
+    for (var vez = 0; vez < numero; vez++) {console.log("executado " + vez)}
+    while (numero < 10) {console.log("Número " + numero)}
+ 
+ Array: é um conjunto de elementos, sequencial, a contagem dos elementos inicia sempre em 0, 
+ os elementos devem ser separados por "," e contidos entre "()".
+
+ - o comando : (var.length) conta os elementos do array.

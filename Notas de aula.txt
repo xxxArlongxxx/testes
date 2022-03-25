@@ -79,7 +79,23 @@ ex: var numero = 5;
     for (var vez = 0; vez < numero; vez++) {console.log("executado " + vez)}
     while (numero < 10) {console.log("Número " + numero)}
  
+ --------------------------------------------------------------------------------------------------------------------------------
  Array: é um conjunto de elementos, sequencial, a contagem dos elementos inicia sempre em 0, 
  os elementos devem ser separados por "," e contidos entre "()".
 
- - o comando : (var.length) conta os elementos do array.
+ o comando : (var.length) conta os elementos do array.
+
+exemplos de aplicação:
+Ex 01
+
+essa aplicação com "in" retorna a posição dos "index" do array.
+var alunos = ["Dione","Rayanne","Victor","Jota"]
+for (var aluno in alunos)
+console.log(aluno)
+
+Ex 02
+
+essa aplicação com "of" retorna o "nome do elemento" do array.
+  var alunos = ["Dione","Rayanne","Victor","Jota"]
+  for (var aluno of alunos)
+  console.log(aluno)
